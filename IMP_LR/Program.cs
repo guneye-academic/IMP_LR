@@ -55,7 +55,6 @@ namespace IMP_LR
 
         static void Main(string[] args)
         {
-            //swvar_summary=new StreamWriter("results.txt");
             sw = new Stopwatch();
 
             file_names = new string[10] { "arcs2000", "phy-500", "phy-1k", "phy-2k", "phy-5k", "phy-10k", "phy-20k", "phy-50k", "phy-100k", "phy-200k" };

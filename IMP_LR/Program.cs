@@ -139,7 +139,7 @@ namespace IMP_LR
             //path = @"C:\data\CollegeMsg.im";
             path = @"C:\data\"+filename;
 
-            arc_set = new List<string>();
+            arc_set = new List<string>(); 
 
             var readData = (File.ReadLines(path).Skip(0).Select(a => {
                 return new { Id = a };

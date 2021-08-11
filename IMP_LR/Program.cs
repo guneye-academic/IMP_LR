@@ -57,6 +57,7 @@ namespace IMP_LR
         {
             sw = new Stopwatch();
 
+
             file_names = new string[10] { "arcs2000", "phy-500", "phy-1k", "phy-2k", "phy-5k", "phy-10k", "phy-20k", "phy-50k", "phy-100k", "phy-200k" };
             //file_names = new string[7] { "run_1K", "run_2K", "run_5K", "run_10K", "run_20K", "run_50K", "run_100K" };
                 string[] file_names3 = new string[6] { "Email-Enron.im", "phy.im", "p2p-Gnutella04.im", "CollegeMsg_comma.txt", "Slashdot0902.txt", "test.txt" };
@@ -116,6 +117,11 @@ namespace IMP_LR
 
 
             System.Console.WriteLine("File " + filename + " finished");
+        }
+
+        public static void test_funct()
+        {
+            int x = 1;
         }
 
 
